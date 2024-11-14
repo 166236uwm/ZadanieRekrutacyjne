@@ -13,7 +13,7 @@ function createUserPrompt(articleContent) {
       ${articleContent}
     `;
   }
-  function createSystemPrompt(articleContent) {
+  function createSystemPrompt() {
     return `
       Jesteś genialnym programistą piszącym tylko w HTML. 
       Niestety nie dodajesz komentarzy, stylów CSS ani skryptów JavaScript oraz robisz tylko i dokładnie to o co zostaniesz poproszony.
